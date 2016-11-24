@@ -1,76 +1,77 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .wrapper {
-	padding: 10px;
+    padding: 10px;
 }
-
-.header{
-	width: 100%;
-	height: 80px;
-	background: #4286f4;
-	margin: 10px 0;
+.header {
+    width: 100%;
+    height: 80px;
+    background: #4286f4;
+    margin: 10px 0;
 }
 .green {
-	background: #559360;
+    background: #559360;
 }
 .orange {
-	background:  #d19f42;
+    background: #d19f42;
 }
-.green .content-column, .orange .content-column {
-	height: 650px;
+.green .content-column,
+.orange .content-column {
+    height: 650px;
 }
-.green, .red, .orange {
-float: left;
+.green,
+.red,
+.orange {
+    float: left;
 }
-.green, .orange{
-	width: 20%;
+.green,
+.orange {
+    width: 20%;
 }
-.red{
-	width: 60%;
+.red {
+    width: 60%;
 }
-
 .red .content-column {
-  background: #d14253;
-	height: 650px;
-	margin: 0 20px;
+    background: #d14253;
+    height: 650px;
+    margin: 0 20px;
 }
-
-
-@media screen and (max-width: 991px){
-	.header{
-		margin-top: 0;
-	}
-	.green{
-		width: 100%;
-		height: 200px;
-		margin-bottom: 20px;
-	}
-	.red, .orange{
-		width: 50%;
-		margin: 0;
-	}
-	.red .content-column {
-		margin: 0 2px 0 0;
-	}
-	.orange .content-column {
-		margin-left: 10px;
-	}
+@media screen and (max-width: 991px) {
+    .header {
+        margin-top: 0;
+    }
+    .green {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .red,
+    .orange {
+        width: 50%;
+        margin: 0;
+    }
+    .red .content-column {
+        margin: 0 2px 0 0;
+    }
+    .orange .content-column {
+        margin-left: 10px;
+    }
 }
-
-@media screen and (max-width: 767px){
-	.green{
-		height: 100px;
-	}
-	.red {
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.red .content-column, {
-		margin: 0 0 0 0;
-  }
-  .orange {
-    display: none;
-  }
+@media screen and (max-width: 767px) {
+    .green {
+        height: 100px;
+    }
+    .red {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .red .content-column,
+    {
+        margin: 0 0 0 0;
+    }
+    .orange {
+        display: none;
+    }
 }
